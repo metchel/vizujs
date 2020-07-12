@@ -12,6 +12,7 @@ npm run build:types
 
 ## Example
 
+Create an html element in which the vizualization will live.
 ```html
 <!DOCTYPE html>
 <html>
@@ -24,6 +25,7 @@ npm run build:types
 </html>
 ```
 
+Write some javascript code and use the Vizu.mount api with a data structure (Array, Object, Map, Set) and an html element as arguments.
 ```javascript
 import * as Vizu from '../../../lib/dist/vizu.cjs';
 
