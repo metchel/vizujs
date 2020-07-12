@@ -12,14 +12,17 @@ npm run build:types
 
 ## Example
 ```javascript
-import * as Vizu from '../dist/vizu.cjs';
+import * as Vizu from '../../../lib/dist/vizu.cjs';
 
 let container = document.getElementById("container");
 
 let arr = Vizu.mount([1, 2, 3, 4, 5], container);
 
-arr.push(6);
-arr[3] = 7;
+arr.forEach((element, index) => {
+    if (element % 2) {
+        arr[index]++;
+    }
+});
 ```
 
 ![alt text](https://github.com/metchel/vizujs/raw/master/demo.gif "Example")
