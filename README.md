@@ -11,6 +11,19 @@ npm run build:types
 ```
 
 ## Example
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>vizujs</title>
+    </head>
+    <body>
+        <div id="container"></div>
+    </body>
+</html>
+```
+
 ```javascript
 import * as Vizu from '../../../lib/dist/vizu.cjs';
 
